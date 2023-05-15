@@ -9,11 +9,11 @@ function App() {
       <h1>The Movies Saga!</h1>
       <Router>  
 
-        <Route path="/" exact>
+        <Route exact path="/" >
           <MovieList />
         </Route>
         
-        <Route path="/details" exact>
+        <Route exact path="/details/:id" >
           <MovieItem />
         </Route>
 
