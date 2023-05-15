@@ -5,20 +5,20 @@ import { useParams, useHistory } from 'react-router-dom';
 
 function MovieItem () {
 
-    const dispatch = useDispatch();
-    const {id} = useParams();
-    const movie = useSelector(store => store.selectedMovie);
-    const history = useHistory();
+    // const dispatch = useDispatch();
+    // const {id} = useParams();
+    // const movie = useSelector(store => store.selectedMovie);
+    // const history = useHistory();
 
-    useEffect(() => {
-        dispatch({ 
-            type: 'FETCH_MOVIE', 
-            payload: id });
-    }, [dispatch, id]);
+    // useEffect(() => {
+    //     dispatch({ 
+    //         type: 'FETCH_MOVIE', 
+    //         payload: id });
+    // }, [dispatch, id]);
 
-    const handleBackClick = () => {
-        history.push('/details');
-      };
+    // const handleBackClick = () => {
+    //     history.push('/details');
+    //   };
 
     return (
     
