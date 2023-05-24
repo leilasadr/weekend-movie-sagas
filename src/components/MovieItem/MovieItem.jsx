@@ -4,11 +4,11 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams, useHistory } from 'react-router-dom';
 
-function MovieItem (props) {
-    const {movie} = props;
+function MovieItem () {
+    // const {movie} = props;
     // const dispatch = useDispatch();
     // const {id} = useParams();
-    // const movie = useSelector(store => store.selectedMovie);
+    const movie = useSelector(store => store.selectedMovie);
     const history = useHistory();
 
     // useEffect(() => {
@@ -18,7 +18,7 @@ function MovieItem (props) {
     // }, [dispatch, id]);
 
     const handleBackClick = () => {
-        history.push('/details');
+        history.push(`/details/${movie.id}`);
       };
 
     return (
