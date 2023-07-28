@@ -1,8 +1,8 @@
 # Movie Sagas
 
-_Duration: 20 hours_
-
 ## Description
+
+_Duration: 20 hours_
 
 ## Demo
 
