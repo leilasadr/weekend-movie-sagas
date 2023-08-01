@@ -5,17 +5,22 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams, useHistory } from 'react-router-dom';
 
 function MovieItem () {
+
+  const params = useParams();
+  const movieId = params.id;
+
+
     // const {movie} = props;
-    // const dispatch = useDispatch();
+    const dispatch = useDispatch();
     // const {id} = useParams();
     const movie = useSelector(store => store.selectedMovie);
     const history = useHistory();
 
-    // useEffect(() => {
-    //     dispatch({ 
-    //         type: 'FETCH_MOVIE', 
-    //         payload: id });
-    // }, [dispatch, id]);
+    useEffect(() => {
+        dispatch({ 
+            type: 'FETCH_MOVIE', 
+            payload: movieId });
+    }, [dispatch, id]);
 
     const handleBackClick = () => {
         history.push(`/details/${movie.id}`);
