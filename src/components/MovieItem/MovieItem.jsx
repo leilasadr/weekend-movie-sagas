@@ -20,7 +20,7 @@ function MovieItem () {
         dispatch({ 
             type: 'FETCH_MOVIE', 
             payload: movieId });
-    }, [dispatch, id]);
+    }, []);
 
     const handleBackClick = () => {
         history.push(`/details/${movie.id}`);
