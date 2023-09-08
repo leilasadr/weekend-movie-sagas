@@ -21,4 +21,6 @@ _Duration: 20 hours_
 
 ## Acknowledgement
 
+A big thank you to [Prime Digital Academy](www.primeacademy.io) for creating a safe and fun environment for learning and my cohort mates because without their support, it would have taken me so much longer to build this app. 
+
 ## Support
