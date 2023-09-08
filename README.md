@@ -24,3 +24,5 @@ _Duration: 20 hours_
 A big thank you to [Prime Digital Academy](www.primeacademy.io) for creating a safe and fun environment for learning and my cohort mates because without their support, it would have taken me so much longer to build this app. 
 
 ## Support
+
+<a href="https://www.linkedin.com/in/leilasadr"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  
