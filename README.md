@@ -2,6 +2,8 @@
 
 ## Description
 
+This is a movie management application that renders a collection of films to the webpage after being pulled from a database. A detailed view has been created for each individual film- including all genres of that particular movie.
+
 _Duration: 20 hours_
 
 ## Built With
